@@ -230,6 +230,7 @@ module.exports = {
                     'grid-row',
                     'grid-row-end',
                     'grid-row-start',
+                    'gap',
                 ],
             },
             {
