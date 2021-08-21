@@ -8,7 +8,8 @@
     "lint",
     "eslint",
     "stylelint",
-    "typescript"
+    "typescript",
+    "scss"
   ],
   "scripts": {
     "editorconfig": "editorconfig-checker"
