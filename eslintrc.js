@@ -65,7 +65,7 @@ module.exports = {
         // Best practices
         'block-scoped-var': 2,
         complexity: [0, 11],
-        curly: [2, 'multi-line'],
+        curly: [2, 'all'],
         eqeqeq: [2, 'always', { null: 'ignore' }],
         'no-else-return': 2,
         'no-extra-bind': 2,
