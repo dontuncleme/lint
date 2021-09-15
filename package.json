@@ -1,6 +1,6 @@
 {
   "name": "@dontuncleme/lint",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Set of configs for linters",
   "author": "Siarhiej Samsonaŭ <dontuncleme@gmail.com>",
   "license": "MIT",
