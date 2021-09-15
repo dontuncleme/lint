@@ -12,7 +12,11 @@
     "scss"
   ],
   "scripts": {
+    "eslint": "eslint '*.js'",
     "editorconfig": "editorconfig-checker"
+  },
+  "eslintConfig": {
+    "extends": "./eslintrc.js"
   },
   "lint-staged": {
     "**/*.{js,yml}": [
@@ -24,22 +28,22 @@
     "pre-commit": "npx lint-staged"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.31.1",
-    "@typescript-eslint/parser": "^4.31.1",
-    "eslint": "^7.32.0",
-    "eslint-plugin-ascii": "^1.0.0",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
-    "stylelint": "^13.13.1",
-    "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.21.0",
-    "typescript": "^4.4.3"
+    "@typescript-eslint/eslint-plugin": "4.31.1",
+    "@typescript-eslint/parser": "4.31.1",
+    "eslint": "7.32.0",
+    "eslint-plugin-ascii": "1.0.0",
+    "eslint-plugin-import": "2.24.2",
+    "eslint-plugin-simple-import-sort": "7.0.0",
+    "stylelint": "13.13.1",
+    "stylelint-order": "4.1.0",
+    "stylelint-scss": "3.21.0",
+    "typescript": "4.4.3"
   },
   "devDependencies": {
-    "@dontuncleme/prettier": "^1.0.1",
-    "editorconfig-checker": "^4.0.2",
-    "lint-staged": "^11.1.2",
-    "simple-git-hooks": "^2.6.1"
+    "@dontuncleme/prettier": "1.0.1",
+    "editorconfig-checker": "4.0.2",
+    "lint-staged": "11.1.2",
+    "simple-git-hooks": "2.6.1"
   },
   "repository": {
     "type": "git",
