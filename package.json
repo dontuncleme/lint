@@ -15,15 +15,15 @@
     "editorconfig": "editorconfig-checker"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.31.0",
-    "@typescript-eslint/parser": "^4.31.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
     "eslint": "^7.32.0",
     "eslint-plugin-ascii": "^1.0.0",
     "eslint-plugin-import": "^2.24.2",
     "stylelint": "^13.13.1",
     "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.20.1",
-    "typescript": "^4.4.2"
+    "stylelint-scss": "^3.21.0",
+    "typescript": "^4.4.3"
   },
   "devDependencies": {
     "editorconfig-checker": "^4.0.2"
