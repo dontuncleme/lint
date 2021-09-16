@@ -12,14 +12,15 @@
     "scss"
   ],
   "scripts": {
-    "eslint": "eslint '*.js'",
-    "editorconfig": "editorconfig-checker"
+    "editorconfig": "npx editorconfig-checker",
+    "eslint": "npx eslint '**/*.{js,ts}'",
+    "prettier": "npx prettier --write '**/*.{json,js,ts,yml}'"
   },
   "eslintConfig": {
     "extends": "./eslintrc.js"
   },
   "lint-staged": {
-    "**/*.{js,yml}": [
+    "**/*.{json,js,ts,yml}": [
       "npx prettier --write"
     ]
   },
@@ -40,7 +41,7 @@
     "typescript": "4.4.3"
   },
   "devDependencies": {
-    "@dontuncleme/prettier": "1.0.1",
+    "@dontuncleme/prettier": "1.0.3",
     "editorconfig-checker": "4.0.2",
     "lint-staged": "11.1.2",
     "simple-git-hooks": "2.6.1"
