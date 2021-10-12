@@ -29,11 +29,11 @@
     "pre-commit": "npx lint-staged"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.31.2",
-    "@typescript-eslint/parser": "^4.31.2",
-    "eslint": "^7.32.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
     "eslint-plugin-ascii": "^1.0.0",
-    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-import": "^2.25.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "stylelint": "^13.13.1",
     "stylelint-order": "^4.1.0",
@@ -43,7 +43,7 @@
   "devDependencies": {
     "@dontuncleme/prettier": "^1.0.4",
     "editorconfig-checker": "^4.0.2",
-    "lint-staged": "^11.1.2",
+    "lint-staged": "^11.2.3",
     "simple-git-hooks": "^2.6.1"
   },
   "repository": {
