@@ -1,5 +1,6 @@
 module.exports = {
     plugins: ['stylelint-scss', 'stylelint-order'],
+    customSyntax: 'postcss-scss',
     rules: {
         'max-nesting-depth': 4,
         'scss/at-extend-no-missing-placeholder': true,
@@ -34,7 +35,6 @@ module.exports = {
         'function-parentheses-space-inside': 'never',
         'function-url-quotes': 'always',
         'function-url-scheme-allowed-list': ['https'],
-        'function-whitelist': null,
         'function-whitespace-after': 'always',
 
         'number-leading-zero': 'always',
