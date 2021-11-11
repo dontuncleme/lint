@@ -1,5 +1,6 @@
 module.exports = {
     plugins: ['stylelint-scss', 'stylelint-order'],
+    customSyntax: 'postcss-scss',
     rules: {
         'max-nesting-depth': 4,
         'scss/at-extend-no-missing-placeholder': true,
