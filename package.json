@@ -1,6 +1,6 @@
 {
   "name": "@dontuncleme/lint",
-  "version": "1.0.9-alpha.0",
+  "version": "1.0.8",
   "description": "Set of configs for linters",
   "author": "Siarhiej Samsonaŭ <dontuncleme@gmail.com>",
   "license": "MIT",
@@ -29,26 +29,23 @@
     "pre-commit": "npx lint-staged"
   },
   "dependencies": {
-    "eslint": "^8.2.0",
-    "postcss-scss": "^4.0.2",
-    "stylelint": "^14.0.1"
-  },
-  "devDependencies": {
-    "@dontuncleme/prettier": "^1.0.4",
     "@typescript-eslint/eslint-plugin": "^5.3.1",
     "@typescript-eslint/parser": "^5.3.1",
-    "editorconfig-checker": "^4.0.2",
+    "eslint": "^8.2.0",
     "eslint-plugin-ascii": "^1.0.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "lint-staged": "^11.2.6",
-    "simple-git-hooks": "^2.7.0",
+    "postcss-scss": "^4.0.2",
+    "stylelint": "^14.0.1",
     "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.0",
     "typescript": "^4.4.4"
   },
-  "peerDependencies": {
-    "eslint": "^8.2.0",
-    "stylelint": "^14.0.1"
+  "devDependencies": {
+    "@dontuncleme/prettier": "^1.0.4",
+    "editorconfig-checker": "^4.0.2",
+    "lint-staged": "^11.2.6",
+    "simple-git-hooks": "^2.7.0"
   },
   "repository": {
     "type": "git",
